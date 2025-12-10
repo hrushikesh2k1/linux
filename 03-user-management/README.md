@@ -120,3 +120,8 @@ Then add:
 ```bash
 username ALL=(ALL) NOPASSWD: /path/to/command
 ```
+
+### Creating a temporary user
+```
+sudo useradd -e YYYY-MM-DD username
+```
